@@ -16,4 +16,4 @@ https://user-images.githubusercontent.com/50042375/146684921-0af730f1-a033-4ef0-
 * User should be able to view the products in the cart
 * User should be able to remove product from the cart
 
-used providers to do state management & built with flutter 2.8.1 version
+used provider package to do state management & built with flutter 2.8.1 version
