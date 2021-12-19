@@ -1,0 +1,72 @@
+{
+   "status":true,
+   "result":[
+      {
+         "id":"01",
+         "name":"Yamaha electric guitar OC112",
+         "category":"guitar",
+         "brand":"Yamaha",
+         "model":"OC112",
+         "price":299.00,
+         "colour":"Red",
+         "weight":"2.3 kg",
+         "image": "https://i.ibb.co/nj4fsj8/ezgif-com-gif-maker-removebg-preview.png"
+          
+      },
+      {
+         "id":"02",
+         "name":"Ibanez electric guitar IB212O",
+         "category":"guitar",
+         "brand":"Ibanez",
+         "model":"IB212O",
+         "price":499.00,
+         "colour":"Black",
+         "weight":"2.4 kg",
+         "image":"https://i.ibb.co/c8MmBGt/rg320exz-bkf-standard-fr-hh-jat-600-175083-removebg-preview.png"
+      },
+      {
+         "id":"03",
+         "name":"Fender stratocaster electric guitar",
+         "category":"guitar",
+         "brand":"Fender",
+         "model":"STRAT221",
+         "price":799.00,
+         "colour":"Black",
+         "weight":"2.2 kg",
+         "image":"https://i.ibb.co/y4rPSj6/strat-player-mex-sss-mn-600-146099-removebg-preview.png"
+      },
+      {
+         "id":"04",
+         "name":"Yamaha Piano",
+         "category":"piano",
+         "brand":"Yamaha ",
+         "model":"OBC346",
+         "price":2999.00,
+         "colour":"Black",
+         "weight":"228 kg",
+         "image":"https://i.ibb.co/VqNgt84/ezgif-com-gif-maker-2-removebg-preview.png"
+      },
+      {
+         "id":"05",
+         "name":"Yamaha C3XPE Grand Piano",
+         "category":"piano",
+         "brand":"Yamaha ",
+         "model":" C3XPE",
+         "price":4999.00,
+         "colour":"Black",
+         "weight":"320 kg",
+         "image":"https://i.ibb.co/64nPPyr/ezgif-com-gif-maker-3-removebg-preview.png"
+      },
+      {
+         "id":"06",
+         "name":"ROLAND VAD506 Kit V-Drums",
+         "category":"drums",
+         "brand":"ROLAND ",
+         "model":" VAD506",
+         "price":2999.00,
+         "colour":"Silver & Black",
+         "weight":"120 kg",
+         "image":"https://i.ibb.co/j8kHfyS/roland-vad506-kit-v-drums-acoustic-design-removebg-preview.png"
+      }
+   ]
+}
