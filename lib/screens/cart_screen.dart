@@ -20,8 +20,7 @@ class CartScreen extends StatelessWidget {
         children: [
           Expanded(
             //cart items
-            child: Consumer<CartProvider>(
-              builder: (context, datas, child) {
+            child: Consumer<CartProvider>(builder: (context, datas, child) {
               return datas.cartItems.isNotEmpty
                   ? Column(
                       children: [
@@ -61,21 +60,59 @@ class CartScreen extends StatelessWidget {
                                               Padding(
                                                 padding:
                                                     const EdgeInsets.symmetric(
-                                                        vertical: 10),
+                                                        vertical: 10,
+                                                        horizontal: 10),
                                                 child: Column(
                                                   mainAxisAlignment:
                                                       MainAxisAlignment.center,
+                                                      crossAxisAlignment: CrossAxisAlignment.start,
                                                   children: [
-                                                    Expanded(
-                                                        child: Text(datas
-                                                            .cartItems[index]
-                                                            .model
-                                                            .toString())),
-                                                    Expanded(
-                                                        child: Text(datas
+                                                    Row(
+                                                      mainAxisAlignment:
+                                                          MainAxisAlignment
+                                                              .start,
+                                                      children: [
+                                                        Text(
+                                                          datas.cartItems[index]
+                                                              .model
+                                                              .toString(),
+                                                          style: TextStyle(
+                                                              color:
+                                                                  Colors.white,
+                                                              fontSize: 25,
+                                                              fontWeight:
+                                                                  FontWeight
+                                                                      .w700),
+                                                        ),
+                                                      ],
+                                                    ),
+                                                    SizedBox(
+                                                      height: 20,
+                                                    ),
+                                                    Row(
+                                                      mainAxisAlignment:
+                                                          MainAxisAlignment
+                                                              .start,
+                                                      children: [
+                                                        Text("Rs.",style: TextStyle(
+                                                              color:
+                                                                  Colors.white,
+                                                              fontSize: 25,
+                                                              fontWeight:
+                                                                  FontWeight
+                                                                      .w700)),
+                                                        Text(datas
                                                             .cartItems[index]
                                                             .price
-                                                            .toString())),
+                                                            .toString(),style: TextStyle(
+                                                              color:
+                                                                  Colors.white,
+                                                              fontSize: 25,
+                                                              fontWeight:
+                                                                  FontWeight
+                                                                      .w700),),
+                                                      ],
+                                                    ),
                                                   ],
                                                 ),
                                               ),
@@ -165,7 +202,7 @@ class CartScreen extends StatelessWidget {
                         )
                       ],
                     )
-                    //when cart item is null/0
+                  //when cart item is null/0
                   : Column(
                       mainAxisAlignment: MainAxisAlignment.center,
                       children: [
@@ -196,7 +233,8 @@ class CartScreen extends StatelessWidget {
                               Navigator.push(
                                   context,
                                   MaterialPageRoute(
-                                      builder: (context) => const HomeScreen()));
+                                      builder: (context) =>
+                                          const HomeScreen()));
                             },
                             child: const Text(
                               'Browse Items',
