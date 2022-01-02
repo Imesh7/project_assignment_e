@@ -113,7 +113,7 @@ class _HomeScreenState extends State<HomeScreen> {
                         child: IconButton(
                           padding: EdgeInsets.zero,
                           icon: const Icon(Icons.search),
-                          onPressed: () => Provider.of<ProductProvider>(context,listen: false).searchByModel(searchController.text),
+                          onPressed: () => Provider.of<ProductProvider>(context,listen: false).searchByModel(searchController.text.toLowerCase()),
                         ),
                       ),
                       hintText: 'Search Your Model',
