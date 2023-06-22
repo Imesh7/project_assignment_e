@@ -1,5 +1,6 @@
-# project_assignment_e
+# Ecommerce UI - Music Instrumets 
 
+I have made Ecommerce app using flutter framework, Concept regarding Music Instrument......
 
 
 https://user-images.githubusercontent.com/50042375/146684921-0af730f1-a033-4ef0-9f76-2a5cce1c6c81.mp4
